@@ -9,7 +9,8 @@ export default defineConfig({
   plugins: [vue()],
   resolve: {
     alias: [
-      { find: /^~/, replacement: '' }
+      { find: /^~/, replacement: '' },
+      { find: '@xkit-yx', replacement: path.resolve(__dirname, './node_modules/@xkit-yx') }
     ]
   },
   server: {
