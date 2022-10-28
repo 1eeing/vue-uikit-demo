@@ -14,6 +14,7 @@ const isDev = process.env.DEV
 const EXTERNALS = {
   react: 'React',
   'react-dom': 'ReactDOM',
+  'react-router-dom': 'ReactRouterDom',
   'react/jsx-runtime': 'jsxRuntime',
   '@xkit-yx/im-kit-ui': 'uikit',
 }
